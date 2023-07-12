@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign In</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./logic.css">
+  
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    .left{
+      display: inline-block;
+      position:absolute;
+      top:13px;
+      left: 15px;
+    }
+    .right{
+      position: absolute;
+      top: 13px;
+      right: 10px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+    <header class="header">
+
+      <div class="left">
+        <a href="index.html" class="icon-link">
+          <img src="book-fill (1).svg" alt="" height="40px">
+
+          
+        </a>
+      </div>
+      <div class="right">
+        <a href="login.html" class="btn btn-outline-success">Back</a>
+      </div>
+    </header>
+  <div class="container mt-5">
+    <h2 class="text-center">SIGNIN</h2>
+    <form>
+      <div class="mb-3">
+        <label for="username" class="form-label">Create Username:</label>
+        <input type="text" id="username" class="form-control" required>
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label">Create Password:</label>
+        <input type="password" id="password" class="form-control" required>
+      </div>
+      <div class="mb-3">
+        <label for="confirm-password" class="form-label">Confirm Password:</label>
+        <input type="password" id="confirm-password" class="form-control" required>
+      </div>
+      <div class="text-center">
+        <center><button type="submit" class="btn btn-primary">SignIn</button></center>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
